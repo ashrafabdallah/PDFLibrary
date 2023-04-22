@@ -18,10 +18,10 @@ dependencies {
 ## Easy Way To Using Library
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-       
-      
-       btn.setOnClickListener {
-           PDF.showPdf(this,"https://dukqovpycvvvc.pdf")
-       }
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+PDF.showPdf(this,"https://dukqovpycvvvc.pdf")
     }
+}
     
