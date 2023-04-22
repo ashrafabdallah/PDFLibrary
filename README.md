@@ -24,4 +24,4 @@ class MainActivity : AppCompatActivity() {
            PDF.showPdf(this,"https://dukqovpycvvvc.pdf")
        }
     }
-    }
+    
