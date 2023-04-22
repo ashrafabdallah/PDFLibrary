@@ -12,7 +12,7 @@ import android.webkit.WebViewClient
 import android.widget.ImageView
 import android.widget.Toast
 
-object PDF {
+object Pdf {
      fun showPdf(context: Context, pdfUrl: String,imageColorForBtnDownloadAndBtnShareLink:Int?=null) {
         var dailog = Dialog(context)
         dailog.requestWindowFeature(Window.FEATURE_NO_TITLE)
