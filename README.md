@@ -16,12 +16,17 @@ dependencies {
  implementation 'com.github.ashrafabdallah:PDFLibrary:v1.1.0'
 	}
 ## Easy Way To Using Library
-class MainActivity : AppCompatActivity() {
+class PickerProfileFragment : Fragment(), OnCaptureMedia {
+  
+    .
+    .
+    .
+    
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-PDF.showPdf(this,"https://dukqovpycvvvc.pdf")
+       .
+     
+       btn.setOnClickListener {
+          PDF.showPdf(this,"https://dukqovpycvvvc.pdf")
+       }
     }
-}
     
