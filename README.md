@@ -16,7 +16,7 @@ dependencies {
  implementation 'com.github.ashrafabdallah:PDFLibrary:v1.1.0'
 	}
 ## Easy Way To Using Library
-class PickerProfileFragment : Fragment(), OnCaptureMedia {
+class MainActivity : AppCompatActivity() {
   
     .
     .
@@ -29,4 +29,4 @@ class PickerProfileFragment : Fragment(), OnCaptureMedia {
           PDF.showPdf(this,"https://dukqovpycvvvc.pdf")
        }
     }
-    
+   } 
