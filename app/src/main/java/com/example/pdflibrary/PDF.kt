@@ -13,7 +13,7 @@ import android.widget.ImageView
 import android.widget.Toast
 
 object PDF {
-    private fun showPdf(context: Context, pdfUrl: String,imageColorForBtnDownloadAndBtnShareLink:Int?=null) {
+     fun showPdf(context: Context, pdfUrl: String,imageColorForBtnDownloadAndBtnShareLink:Int?=null) {
         var dailog = Dialog(context)
         dailog.requestWindowFeature(Window.FEATURE_NO_TITLE)
         dailog!!.setContentView(R.layout.dialog)
